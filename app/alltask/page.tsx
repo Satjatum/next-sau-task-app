@@ -124,7 +124,7 @@ export default function Page() {
                   <td className="border p-2">
                     <Link
                       className="text-green-500 mr-5 hover:bg-green-600"
-                      href={""}
+                      href={`/updatetask/${task.id}`}
                     >
                       แก้ไข
                     </Link>
